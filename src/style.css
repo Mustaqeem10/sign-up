@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+/* .form-container {
+    
+} */
+
+form {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+form input {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 1.5%;
+    padding: 8px;
+    width: 75%;
+}
+
+form button {
+    background: #672280;
+    border-radius: 5px;
+    width: 8%;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    margin-top: 1.5%;
+}
+
+.checkbox-container {
+    align-self: flex-start;
+    width: 75%;
+    margin-left: 12.4%;
+}
+
+.checkbox-container input {
+    width: auto;
+    margin-right: 1%;
+}
